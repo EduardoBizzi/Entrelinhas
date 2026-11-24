@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "163947593128",
+    "project_id": "biblioteca-2b8bf",
+    "storage_bucket": "biblioteca-2b8bf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163947593128:android:b503fd481ec2fdbfc2f19d",
+        "android_client_info": {
+          "package_name": "br.edu.unicentro.biblioteca"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqicpS4nuQFpLChzU894vPIoNutNaZQP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
