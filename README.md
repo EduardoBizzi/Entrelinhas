@@ -13,9 +13,26 @@ Trabalho de Desenvolvimento de Aplicações Mobile da UNICENTRO, desenvolvido po
 - Fotos pela câmera ou galeria e registro de localização.
 - Busca de livros na Open Library.
 
-## Tecnologias
+## Tecnologias e bibliotecas
 
-Flutter, Dart, Firebase Authentication, Firestore, SQLite, Geolocator, Table Calendar, Image Picker e Open Library API.
+Desenvolvido em Flutter e Dart, com Firebase, SQLite e Open Library API.
+
+- `firebase_core`, `firebase_auth` e `cloud_firestore` — integração com o Firebase.
+- `sqflite`, `sqflite_common` e `path` — banco de dados local.
+- `connectivity_plus` — monitoramento da conexão.
+- `geolocator` e `url_launcher` — localização e mapas.
+- `table_calendar`, `intl` e `flutter_localizations` — calendário, datas e idioma.
+- `image_picker` e `path_provider` — fotos e arquivos.
+- `http` — consumo da API externa.
+- `uuid` — identificação única dos registros.
+
+## Telas principais
+
+Capturas do aplicativo em execução no emulador, com dados de teste.
+
+| Login | Biblioteca | Agenda | Explorar |
+| :---: | :---: | :---: | :---: |
+| <img src="docs/screenshots/login.png" alt="Tela de login" width="200"> | <img src="docs/screenshots/biblioteca.png" alt="Biblioteca pessoal" width="200"> | <img src="docs/screenshots/agenda.png" alt="Agenda de leitura" width="200"> | <img src="docs/screenshots/explorar.png" alt="Pesquisa de livros" width="200"> |
 
 ## Como executar
 
@@ -44,3 +61,4 @@ flutter build apk --release
 - `lib/` — código Dart, telas, serviços e dados.
 - `android/` — configuração e recursos Android.
 - `assets/` — imagem usada no aplicativo.
+- `docs/screenshots/` — imagens das telas.

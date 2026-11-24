@@ -57,11 +57,16 @@ class _CalendarPageState extends State<CalendarPage> {
               calendarFormat: CalendarFormat.month,
               selectedDayPredicate: (day) => isSameDay(_selectedDay, day),
               onDaySelected: (selected, focused) {
+                final localDay = DateTime(
+                  selected.year,
+                  selected.month,
+                  selected.day,
+                );
                 setState(() {
-                  _selectedDay = selected;
+                  _selectedDay = localDay;
                   _focusedDay = focused;
                 });
-                widget.onSelected?.call(selected);
+                widget.onSelected?.call(localDay);
               },
               onPageChanged: (focused) => setState(() => _focusedDay = focused),
               eventLoader: _events,
