@@ -2,7 +2,7 @@
 
 Aplicativo Android para organizar livros e acompanhar leituras.
 
-Trabalho de Desenvolvimento de Aplicações Mobile da UNICENTRO, desenvolvido por Eduardo Bizzi.
+Trabalho de Desenvolvimento de Aplicações Mobile da UNICENTRO, desenvolvido por Eduardo Bizzi e Pedro Castello.
 
 ## Funcionalidades
 
